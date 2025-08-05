@@ -16,7 +16,7 @@ This project was completed as part of my self-learning journey by following the 
 
 ---
 
-## 🏗️ Data Architecture (Medallion Approach)
+## 🏗️ Design Architecture (Medallion Approach)
 
 The project follows the **Medallion Architecture**:
 ![Design Architecture](docs/design_architecture.png)
