@@ -54,22 +54,29 @@ The goal was to:
 
 sql-data-warehouse-project/
 │
-├── datasets/ # ERP & CRM raw CSV files
+├── datasets/
+│   # ERP & CRM raw CSV files
 │
-├── docs/ # Project diagrams and documentation
-│ ├── design_architecture.png # Architecture overview
-│ ├── data_flow.png # Data movement diagram
-│ ├── data_model.png # Star schema models
-│ ├── data_integrity.png # Data integrity rules and logic
-│ └── data_catalog.md # Dataset field definitions
+├── docs/
+│   ├── design_architecture.png  # Architecture overview
+│   ├── data_flow.png           # Data movement diagram
+│   ├── data_model.png          # Star schema models
+│   ├── data_integrity.png      # ETL process and logic
+│   └── data_catalog.md         # Dataset field definitions
 │
-├── scripts/ # SQL scripts for ETL
-│ ├── bronze/ # Raw data loading scripts
-│ ├── silver/ # Data transformation scripts
-│ └── gold/ # Analytical view scripts
+├── scripts/
+│   ├── bronze/
+│   │   # Raw data loading scripts
+│   ├── silver/
+│   │   # Data transformation scripts
+│   └── gold/
+│       # Analytical view scripts
 │
-├── tests/ # Test scripts and data quality checks
-├── README.md # Project documentation (this file)
+├── tests/
+│   # Test scripts and quality checks
+│
+└── README.md
+    # This file
 
 
 ## 📈 Analytical Goals (Gold Layer)
@@ -100,8 +107,8 @@ Hi, I’m **Varshini Chilakala**, a Computer Science student passionate about le
 This project is my first deep dive into SQL-based data warehousing, and I learned a lot by following Baraa's YouTube series.
 
 📬 Let's connect:  
-- LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/varshini-chilakala)  
-- GitHub: [github.com/your-username](https://github.com/Varshini-Chilakala)
+- LinkedIn: [linkedin.com/in/varshini-chilakala](https://www.linkedin.com/in/varshini-chilakala)  
+- GitHub: [github.com/varshini-chilakala](https://github.com/Varshini-Chilakala)
 
 ---
 
