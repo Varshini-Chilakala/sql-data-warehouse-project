@@ -19,7 +19,7 @@ This project was completed as part of my self-learning journey by following the 
 ## 🏗️ Data Architecture (Medallion Approach)
 
 The project follows the **Medallion Architecture**:
-![Data Architecture](docs/data_architecture.png)
+![Design Architecture](docs/design_architecture.png)
 
 1. **Bronze Layer**: Raw data from CSV files (ERP & CRM) is loaded into staging tables in SQL Server.
 2. **Silver Layer**: Data is cleaned, standardized, and transformed to remove duplicates and fix inconsistencies.
@@ -57,7 +57,7 @@ data-warehouse-project/
 ├── datasets/ # ERP & CRM raw CSV files
 │
 ├── docs/ # Project diagrams and documentation
-│ ├── data_architecture.png # Architecture overview
+│ ├── design_architecture.png # Architecture overview
 │ ├── data_flow.png # Data movement diagram
 │ ├── data_model.png # Star schema models
 │ ├── data_integrity.png # ETL process and logic
