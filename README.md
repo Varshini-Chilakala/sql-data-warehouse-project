@@ -52,7 +52,7 @@ The goal was to:
 
 ## 📦 Repository Structure
 
-data-warehouse-project/
+sql-data-warehouse-project/
 │
 ├── datasets/ # ERP & CRM raw CSV files
 │
@@ -60,23 +60,17 @@ data-warehouse-project/
 │ ├── design_architecture.png # Architecture overview
 │ ├── data_flow.png # Data movement diagram
 │ ├── data_model.png # Star schema models
-│ ├── data_integrity.png # ETL process and logic
+│ ├── data_integrity.png # Data integrity rules and logic
 │ └── data_catalog.md # Dataset field definitions
 │
-├── scripts/
+├── scripts/ # SQL scripts for ETL
 │ ├── bronze/ # Raw data loading scripts
 │ ├── silver/ # Data transformation scripts
 │ └── gold/ # Analytical view scripts
 │
-├── tests/  # test scripts and quality checks 
-├── README.md # This file
+├── tests/ # Test scripts and data quality checks
+├── README.md # Project documentation (this file)
 
-
-yaml
-Copy
-Edit
-
----
 
 ## 📈 Analytical Goals (Gold Layer)
 
