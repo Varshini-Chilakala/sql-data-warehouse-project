@@ -53,10 +53,15 @@ The goal was to:
 ## 📦 Repository Structure
 
 sql-data-warehouse-project/
+
 │
+
 ├── datasets/
+
 │   # ERP & CRM raw CSV files
+
 │
+
 ├── docs/
 │   ├── design_architecture.png  # Architecture overview
 │   ├── data_flow.png           # Data movement diagram
